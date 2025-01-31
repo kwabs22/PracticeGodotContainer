@@ -1,0 +1,24 @@
+{
+  // A name for your Codespace environment
+  "name": "Godot Dev Container",
+
+  // Points to our Dockerfile in this same folder
+  "dockerFile": "Dockerfile",
+
+  // Use "vscode" as the default user to match Codespaces conventions
+  "remoteUser": "vscode",
+
+  // (Optional) Forward a port if you are setting up VNC or a web-based interface
+  // "forwardPorts": [6080],
+
+  // (Optional) Automatically install VSCode extensions
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        // for example, a C# extension if you’re using C# with Godot
+        // or a GDScript extension. Adjust as you need.
+        "godotengine.godot-tools"
+      ]
+    }
+  }
+}
